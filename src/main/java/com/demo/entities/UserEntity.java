@@ -31,7 +31,6 @@ public class UserEntity
     @Column(length = 50)
     private String email;
 
-    @Column(length = 15)
     private Integer telephone;
 
 }
