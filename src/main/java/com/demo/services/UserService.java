@@ -11,5 +11,5 @@ public interface UserService
     Optional<UserEntity> findById(Integer id);
     UserEntity save(UserEntity user);
     UserEntity update(UserEntity user);
-    void deleteById(UserEntity user);
+    void deleteById(Integer id);
 }
